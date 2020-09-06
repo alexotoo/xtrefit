@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+/* font-family: 'Roboto', sans-serif; */
+
+.navbar-brand {
+  font-family: "Black Ops One", cursive;
+  font-size: 30px;
+}
+.navbar {
+  background: none;
+  background-color: #212121;
+}
+.header-1 {
+  background-image: url(/image/hero-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  height: 100vh;
+}
+.header-2 {
+  background-color: #e70d45;
+}
+.fab {
+  color: whitesmoke !important;
+  padding: 1rem;
+  text-align: center;
+  transition: 500ms ease;
+}
+.fab:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.social-media {
+  padding-top: 4rem;
+}
+
+.active {
+  color: #ffffff !important;
+  border-radius: 50px;
+  background: #212121;
+  box-shadow: inset 5px 5px 12px #0e0e0e, inset -5px -5px 12px #343434;
+}
+.nav-link:active {
+  color: #ffffff !important;
+  border-radius: 50px;
+  background: #212121;
+  box-shadow: inset 5px 5px 12px #0e0e0e, inset -5px -5px 12px #343434;
+}
+
+/* buttons */
+.btn-normal {
+  border-radius: 50px;
+  background: #212121;
+  box-shadow: 5px 5px 7px #0f0f0f, -5px -5px 7px #333333;
+  color: #e70d45 !important;
+}
+.btn-wide {
+  min-width: 90px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 50px;
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-link {
+  display: inline-block;
+  background: #212121;
+  box-shadow: 5px 5px 7px #0f0f0f, -5px -5px 7px #333333;
+  color: #e70d45 !important;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+.btn-link:active {
+  color: #ffffff !important;
+  border-radius: 0px;
+  background: #212121;
+  box-shadow: inset 5px 5px 12px #0e0e0e, inset -5px -5px 12px #343434;
+}
+.btn-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #212121;
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  bottom: 6rem;
+  left: 1rem;
+}
+.my-header {
+  margin-top: 4rem;
+}
+.my-heading-text {
+  padding-top: 1rem;
+}
+.my-heading-text > p {
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #e70d45;
+  padding: 0 1rem;
+  margin-bottom: 0;
+}
+.header-1 {
+  position: relative;
+}
+
+.header-2 {
+  color: #ffffff;
+
+  padding: 2rem 0 0 2rem;
+}
+.header-2__text h1 {
+  text-align: left;
+  margin: 4rem 0 2rem 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.header-2__text p {
+  padding-right: 2rem;
+}
+
+/* typo */
+.span-red {
+  color: #e70d45;
+}
+
+/* about-section */
+.about {
+  overflow: hidden;
+  background-color: #212121;
+}
+.about-img {
+  background-image: url(/image/about.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.about-text {
+  color: #ffffff;
+  padding: 0 2rem;
+}
+.section-heading {
+  padding-top: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.section-heading h1 {
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+.section-heading h4 {
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+/* feature-section */
+.feature {
+  overflow: hidden;
+}
+
+.feature-text {
+  padding-left: 2rem;
+}
+.feature-img {
+  background-image: url(/image/gymfacts.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 70vh;
+}
+
+/* section price */
+.prices {
+  padding-top: 30px;
+  overflow: hidden;
+  background-color: #212121;
+  overflow: hidden;
+}
+.card {
+  /* border-radius: 21px; */
+
+  background: #212121;
+  box-shadow: 8px 8px 7px #0d0d0d, -8px -8px 7px #353535;
+  text-align: center;
+}
+.t-w {
+  color: whitesmoke;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+.card-img-top {
+  /* border-radius: 21px 21px 0 0; */
+}
+.card-title {
+  font-family: "Black Ops One", cursive;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+.list-group-item {
+  background: #212121 !important;
+}
+
+.card-text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+.list-group-item {
+  color: whitesmoke;
+}
+
+/* tour section */
+.tour {
+  background: #212121 !important;
+}
+/* .carousel-item {
+  width: 70vh;
+} */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #e70d45;
+}
+
+/* figures */
+
+.figures {
+  /* height: 50vh; */
+  background: #212121 !important;
+}
+.fa-2x {
+  color: #e70d45;
+}
+.p-x {
+  padding: 0 2rem 0 2rem;
+}
+
+/* opening */
+
+.opening-hr {
+  overflow: hidden;
+  background: #212121 !important;
+}
+
+/* footer */
+
+.footer {
+  overflow: hidden;
+  background: #2c2c2c !important;
+  padding-top: 4rem;
+}
+
+@media (min-width: 576px) {
+  .btn-container1 {
+    left: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .my-heading-text {
+    display: none;
+  }
+  .btn-container1 {
+    display: none;
+  }
+  .btn-link.btn-red {
+    display: inline-block;
+    border-radius: 0px;
+    background: linear-gradient(145deg, #f70e4a, #d00c3e);
+    box-shadow: 5px 5px 10px #5c051c, -5px -5px 10px #ff156e;
+    color: white !important;
+  }
+  .btn-link.btn-red:active {
+    color: black !important;
+    border-radius: 0px;
+    background: #e70d45;
+    box-shadow: inset 5px 5px 10px #5c051c, inset -5px -5px 10px #ff156e;
+  }
+}
+
+@media (min-width: 992px) {
+  .my-ul {
+    margin-left: 15rem;
+  }
+}
